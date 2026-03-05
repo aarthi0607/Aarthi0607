@@ -1,0 +1,46 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background-color:lightblue
+}
+
+form {
+    margin: 20px;
+    background-color:#f2f2f2;
+    padding:20px;
+    border-radius:10px;
+}
+
+input, select {
+    padding: 5px;
+    margin: 5px;
+    border:1px solid #4CAF50;
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    background-color:#4CAF50;
+    margin-top:20px; 
+}
+
+th {
+    padding: 10px;
+    background-color:#4CAF50;
+}
+td {
+ background-color:#FFF3CD;
+}
+button{
+background-color:green;
+color:white;
+padding:8px,15px;
+border-radius:5px:
+cursor:pointer:
+}
+button:hover{
+background-color:darkgreen;
+}
+button:active{
+ background-color:red;
+}

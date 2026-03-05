@@ -1,0 +1,71 @@
+<center>
+<header>
+    <h1>AI & Web Development Workshop 2026</h1>
+    <p>This workshop is designed to provide students with hands-on experience in modern front-end technologies and the integration of AI tools in software development.</p>
+</header>
+</center>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Registration</title>
+</head>
+<body>
+
+<h1>Event Registration</h1>
+<link rel="stylesheet" href="style.css">
+<form id="form">
+    <label>Name:</label>
+    <input type="text" id="name" required><br><br>
+
+    <label>Email:</label>
+    <input type="email" id="email" required><br><br>
+
+    <label>Phone:</label>
+    <input type="text" id="phone" required><br><br>
+    
+      <label>Date of Birth:</label>
+    <input type="text" id="Date of Birth" required><br><br>
+    <label>Event:</label>
+    <select id="event">
+        <option>Web Development</option>
+        <option>AI Workshop</option>
+        <option>Frontend Development</option>
+    </select><br><br>
+    <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br><br>
+
+
+    <label>Mode:</label>
+    <select id="mode">
+        <option>Online</option>
+        <option>Offline</option>
+    </select><br><br>
+
+    <button type="button" onclick="addData()">Submit</button>
+    <button type="button" onclick="addData()">Reset</button>
+</form>
+
+<h2>Registered Participants</h2>
+
+<table border="1" id="table">
+<tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Event</th>
+    <th>Mode</th>
+</tr>
+</table>
+<script src="script.js"></script>
+<footer>
+    <p>Contact Email: events@abccollege.edu</p>
+    <p>Help Desk Number: +91 9834567892</p>
+    <p>Support Timings: 9:00 AM – 4:30 PM (Working Days Only)</p>
+    <p>© 2026 Department of Computer Science, ABC College</p>
+</footer>
+
+</body>
+</html>
